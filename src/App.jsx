@@ -6,6 +6,7 @@ import Users1 from './components/Users1'; // Import all the components
 import Kyc from './components/Kyc';
 import Activate1 from './components/Activate1';
 import Create from './components/Create';
+import UpdateClient from './components/UpdateClient';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path="activate" element={<Activate1 />} />
           <Route path="Kyy" element={<Kyc />} />
           <Route path="create" element={<Create />} />
+          <Route path="update" element={<UpdateClient />}/>
         </Route>
         <Route
           path="*"
