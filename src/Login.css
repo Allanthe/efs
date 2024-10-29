@@ -2,72 +2,176 @@
 
 /* Make the entire page take up full height and width */
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  /* Full page background with gradient */
-  .login-page {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(to bottom right, #38363b, #7c3aed);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Login form container styling */
-  .login-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    width: 300px;
-    text-align: center;
-  }
-  
-  /* Title inside the login form */
-  .login-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #4c1d95;
-  }
-  
-  /* Inputs inside the form */
-  .login-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  /* Button styling */
-  .login-button {
-    background-color: #4c1d95;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  /* Button hover effect */
-  .login-button:hover {
-    background-color: #7c3aed;
-  }
-  
-  /* Error message styling */
-  .login-error {
-    color: red;
-    font-size: 14px;
-    margin: 10px 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Apply box-sizing and margin reset globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Full page background with gradient */
+.login-page {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom right, #38363b, #f4f3f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the login card */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex layout for the login sections */
+.login-card {
+  display: flex;
+  width: 100%;
+}
+
+/* Form section styling */
+.form-section {
+  flex: 1;
+  padding: 40px;
+}
+
+.logo {
+  font-size: 40px;
+  color: #3f3d56;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  color:white;
+  margin-bottom: 20px;
+  font-size: medium;
+}
+
+/* Buttons for social login */
+.social-login button {
+  width: 48%;
+  padding: 10px;
+  margin: 5px 1%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.google-btn {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.apple-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #ccc;
+  font-weight: 600;
+}
+
+/* Input styling inside the form */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.password-field {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Login button styling */
+.login-btn {
+  width: 100%;
+  background-color: #4b7bec;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #3a6acb;
+}
+
+.signup {
+  margin-top: 15px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #aaa;
+  font-size: 12px;
+}
+
+/* Info section styling */
+.info-section {
+  flex: 1;
+  background-color: rgb(74, 37, 143);
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.graphic img {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.partners span {
+  margin: 0 10px;
+  font-weight: bold;
+  opacity: 0.8;
+}

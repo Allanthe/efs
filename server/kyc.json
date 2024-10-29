@@ -1,0 +1,225 @@
+{
+    "clients": [
+      {
+        "client_id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "phone": "+12345678901",
+        "address": "123 Main St, Springfield, IL, USA",
+        "identification": {
+          "type": "Passport",
+          "number": "A123456789"
+        }
+      },
+      {
+        "client_id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "phone": "+12345678902",
+        "address": "456 Elm St, Metropolis, IL, USA",
+        "identification": {
+          "type": "Driver's License",
+          "number": "D1234567"
+        }
+      },
+      {
+        "client_id": 3,
+        "name": "Catherine Lee",
+        "email": "catherine.lee@example.com",
+        "phone": "+12345678903",
+        "address": "789 Oak St, Gotham, IL, USA",
+        "identification": {
+          "type": "ID Card",
+          "number": "ID12345678"
+        }
+      },
+      {
+        "client_id": 4,
+        "name": "David Brown",
+        "email": "david.brown@example.com",
+        "phone": "+12345678904",
+        "address": "101 Pine St, Star City, IL, USA",
+        "identification": {
+          "type": "Passport",
+          "number": "B987654321"
+        }
+      },
+      {
+        "client_id": 5,
+        "name": "Eva Green",
+        "email": "eva.green@example.com",
+        "phone": "+12345678905",
+        "address": "202 Maple St, Central City, IL, USA",
+        "identification": {
+          "type": "Driver's License",
+          "number": "D7654321"
+        }
+      },
+      {
+        "client_id": 6,
+        "name": "Frank White",
+        "email": "frank.white@example.com",
+        "phone": "+12345678906",
+        "address": "303 Birch St, Coast City, IL, USA",
+        "identification": {
+          "type": "ID Card",
+          "number": "ID87654321"
+        }
+      },
+      {
+        "client_id": 7,
+        "name": "Grace Black",
+        "email": "grace.black@example.com",
+        "phone": "+12345678907",
+        "address": "404 Cedar St, Smallville, IL, USA",
+        "identification": {
+          "type": "Passport",
+          "number": "C543216789"
+        }
+      },
+      {
+        "client_id": 8,
+        "name": "Henry Wilson",
+        "email": "henry.wilson@example.com",
+        "phone": "+12345678908",
+        "address": "505 Walnut St, West City, IL, USA",
+        "identification": {
+          "type": "Driver's License",
+          "number": "D2345678"
+        }
+      },
+      {
+        "client_id": 9,
+        "name": "Irene Harris",
+        "email": "irene.harris@example.com",
+        "phone": "+12345678909",
+        "address": "606 Chestnut St, East City, IL, USA",
+        "identification": {
+          "type": "ID Card",
+          "number": "ID12345789"
+        }
+      },
+      {
+        "client_id": 10,
+        "name": "Jack Taylor",
+        "email": "jack.taylor@example.com",
+        "phone": "+12345678910",
+        "address": "707 Ash St, Capital City, IL, USA",
+        "identification": {
+          "type": "Passport",
+          "number": "D321654987"
+        }
+      },
+      {
+        "client_id": 11,
+        "name": "Kelly Young",
+        "email": "kelly.young@example.com",
+        "phone": "+12345678911",
+        "address": "808 Palm St, Liberty City, IL, USA",
+        "identification": {
+          "type": "Driver's License",
+          "number": "D9876543"
+        }
+      },
+      {
+        "client_id": 12,
+        "name": "Larry King",
+        "email": "larry.king@example.com",
+        "phone": "+12345678912",
+        "address": "909 Spruce St, Freedom City, IL, USA",
+        "identification": {
+          "type": "ID Card",
+          "number": "ID45678901"
+        }
+      },
+      {
+        "client_id": 13,
+        "name": "Megan Adams",
+        "email": "megan.adams@example.com",
+        "phone": "+12345678913",
+        "address": "1010 Birchwood St, Harmony City, IL, USA",
+        "identification": {
+          "type": "Passport",
+          "number": "E654321098"
+        }
+      },
+      {
+        "client_id": 14,
+        "name": "Nathan Hall",
+        "email": "nathan.hall@example.com",
+        "phone": "+12345678914",
+        "address": "1111 Redwood St, Victory City, IL, USA",
+        "identification": {
+          "type": "Driver's License",
+          "number": "D5432109"
+        }
+      },
+      {
+        "client_id": 15,
+        "name": "Olivia Scott",
+        "email": "olivia.scott@example.com",
+        "phone": "+12345678915",
+        "address": "1212 Elmwood St, Success City, IL, USA",
+        "identification": {
+          "type": "ID Card",
+          "number": "ID56789012"
+        }
+      },
+      {
+        "client_id": 16,
+        "name": "Peter Miller",
+        "email": "peter.miller@example.com",
+        "phone": "+12345678916",
+        "address": "1313 Pinewood St, Prosperity City, IL, USA",
+        "identification": {
+          "type": "Passport",
+          "number": "F098765432"
+        }
+      },
+      {
+        "client_id": 17,
+        "name": "Quinn Martinez",
+        "email": "quinn.martinez@example.com",
+        "phone": "+12345678917",
+        "address": "1414 Oakwood St, Growth City, IL, USA",
+        "identification": {
+          "type": "Driver's License",
+          "number": "D0987654"
+        }
+      },
+      {
+        "client_id": 18,
+        "name": "Rachel Gonzalez",
+        "email": "rachel.gonzalez@example.com",
+        "phone": "+12345678918",
+        "address": "1515 Ashwood St, Development City, IL, USA",
+        "identification": {
+          "type": "ID Card",
+          "number": "ID09876543"
+        }
+      },
+      {
+        "client_id": 19,
+        "name": "Steve Robinson",
+        "email": "steve.robinson@example.com",
+        "phone": "+12345678919",
+        "address": "1616 Maplewood St, Innovation City, IL, USA",
+        "identification": {
+          "type": "Passport",
+          "number": "G765432109"
+        }
+      },
+      {
+        "client_id": 20,
+        "name": "Tina Carter",
+        "email": "tina.carter@example.com",
+        "phone": "+12345678920",
+        "address": "1717 Cedarwood St, Excellence City, IL, USA",
+        "identification": {
+          "type": "Driver's License",
+          "number": "D1234560"
+        }
+      }
+    ]
+  }
+  

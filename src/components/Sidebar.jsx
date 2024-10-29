@@ -43,7 +43,11 @@ const Sidebar = ({ sidebarToggle }) => {
                   <Link to="/reset-password">Reset Password</Link>
                 </li>
                 <li className="py-1 hover:bg-gray-700 px-2 rounded">
-                  <Link to="/kyc-verification">KYC Verification</Link>
+                  <Link to="/dashboard/kyy">KYC Verification</Link>
+                </li>
+
+                <li className="py-1 hover:bg-gray-700 px-2 rounded">
+                  <Link to="/dashboard/create">Add Client</Link>
                 </li>
                 
               </ul>
