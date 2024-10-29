@@ -1,0 +1,73 @@
+/* src/Login.css */
+
+/* Make the entire page take up full height and width */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Full page background with gradient */
+  .login-page {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, #38363b, #7c3aed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Login form container styling */
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Title inside the login form */
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4c1d95;
+  }
+  
+  /* Inputs inside the form */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Button styling */
+  .login-button {
+    background-color: #4c1d95;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .login-button:hover {
+    background-color: #7c3aed;
+  }
+  
+  /* Error message styling */
+  .login-error {
+    color: red;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
